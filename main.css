@@ -1,0 +1,68 @@
+@font-face { font-family: Youtube Sans; font-weight: lighter; src: url('youtube-sans-light.ttf'); }
+@font-face { font-family: Youtube Sans; font-weight: normal; src: url('youtube-sans-medium.ttf'); }
+@font-face { font-family: Youtube Sans; font-weight: bold; src: url('youtube-sans-bold.ttf');}
+/* Fonts used
+BodyType: Open Sans, Lato
+Title: Lato */
+/* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+body {
+background-color: #0F0F0F;
+}
+.navbar{
+  font-family: 'Youtube Sans', sans-serif;
+  font-size: 1.2rem;
+  height: 5rem;
+  background-color: #202020;
+}
+.ytselect{
+  font-family: 'Youtube Sans', sans-serif;
+  font-size: 3.35rem;
+  font-weight: normal;
+  color: white;
+}
+/* .navbar-brand-div{
+  padding: 0 2rem 0 2rem;
+  background-color: #212529;
+  border-radius: 150px;
+  position: relative;
+  box-shadow: 9px 0 5px 0 rgba(255,255,255,0.10);
+-webkit-box-shadow: 9px 0 5px 0 rgba(255,255,255,0.10);
+-moz-box-shadow: 9px 0 5px 0 rgba(255,255,255,0.10);
+} */
+  /* color: #FF0000; */
+
+
+.ytselect-select {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#F0E68C, 	#FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ytselect-div {
+  text-align: center;
+}
+
+.iframe-div {
+text-align: center;
+}
+
+
+iframe {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  font-family: 'Youtube Sans', sans-serif;
+  font-weight: normal;
+  font-family: 'Youtube Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.home-btn {
+  position: fixed;
+  top: 90%;
+  left: 90%;
+  font-size: 1.5rem;
+}
