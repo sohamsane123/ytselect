@@ -135,7 +135,11 @@
   </div>
 
 </body>
-
+<script>
+  setTimeout(function() {
+      window.close()
+  }, 20000);
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
   var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
